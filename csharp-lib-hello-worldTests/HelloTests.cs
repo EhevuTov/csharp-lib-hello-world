@@ -11,7 +11,7 @@ namespace csharp_lib_hello_world.Tests
     public class HelloTests
     {
         [TestMethod()]
-        public void HelloTest()
+        public void PhraseDefaultConstructorTest()
         {
             // arrange
             string expected = "Hello, World!";
@@ -19,7 +19,7 @@ namespace csharp_lib_hello_world.Tests
             Phrase hello = new Phrase();
 
             // act
-            actual = hello.returnPhrase();
+            actual = hello.get();
             
             // assert
             Assert.AreEqual(actual, expected);
