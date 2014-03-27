@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("csharp-lib-hello-world")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A simple nuget library to demo")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
 [assembly: AssemblyProduct("csharp-lib-hello-world")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2014")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("James Gosnell")]
+[assembly: AssemblyTrademark("Oh, hai!")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
