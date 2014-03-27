@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace csharp_lib_hello_world
 {
-    public class Hello
+    public class Phrase
     {
         private string phrase;
-        public Hello(){
+        public Phrase(){
             phrase = "Hello, World!";
         }
         public string returnPhrase()
