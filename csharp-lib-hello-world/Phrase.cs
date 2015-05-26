@@ -1,19 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// our Phrase class
+// sets and gets string phrases
+using System;
 
 namespace csharp_lib_hello_world
 {
     public class Phrase
     {
         private string phrase;
+        // default constructor
         public Phrase()
         {
             phrase = "Hello, World!";
         }
 
+        // overloaded constructor
         public Phrase(string str)
         {
             set(str);
