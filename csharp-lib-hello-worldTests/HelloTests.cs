@@ -11,6 +11,12 @@ namespace csharp_lib_hello_world.Tests
     public class HelloTests
     {
         [TestMethod()]
+        public void SimpleAssertTest()
+        {
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod()]
         public void PhraseDefaultConstructorTest()
         {
             // arrange
@@ -23,6 +29,7 @@ namespace csharp_lib_hello_world.Tests
             
             // assert
             Assert.AreEqual(actual, expected);
+            
         }
     }
 }
